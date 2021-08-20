@@ -1,0 +1,5 @@
+<div [formGroup]="loginForm">
+    <input class="texto" id = "user" name="user" formControlName="user"/>
+    <input  type="password" id="password" name="password" formControlName="password"/>
+    <button type="button" label="login" (click)="loginUser(loginForm)">Login</button>
+</div>
